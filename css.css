@@ -1,0 +1,140 @@
+*{
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h1,h2,h2,p,a{
+    color: rgb(112, 105, 219);
+}
+
+body{
+    /*background-color: black;*/
+    background-image: url(imagenes/Background\ 2.webp);
+}
+
+header{
+    padding:50px;
+    border-bottom: 1px solid rgba(113, 105, 219, 0.356);
+    align-items: center;
+}
+
+.galaxia1{
+    height: 400px;
+    width: 400px;
+}
+
+.Entrada ul{
+    display: flex;
+    justify-content:center;
+    gap:80px;
+    align-items: center;
+}
+
+.Entrada ul li{
+    list-style: none;
+    margin:10px 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+}
+
+
+
+
+/*Menu*/
+
+
+
+
+nav{
+    margin:10px 0;
+    border-bottom: 1px solid rgba(113, 105, 219, 0.356);
+}
+
+nav ul{
+    display: flex;
+    justify-content:center;
+    gap:80px;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin:10px 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding:5px 15px;
+    margin:5px 0;
+    line-height:30px;
+    background-color: rgba(113, 105, 219, 0.356);
+    color: #000;
+    border-radius: 10px;
+}
+
+nav ul li a:hover{
+    background-color: #FFFFFF;
+    border:1px solid rgb(112, 105, 219);
+}
+
+button {
+    border: none;
+    background: none;
+    font-size: 34px;
+    }
+
+ul:hover a{
+    filter: blur(1.5px);
+}
+
+ul li a:hover{
+    transform: translateY(-3px) scale(1.12);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
+    filter: none;
+}
+
+.galaxia2{
+    height: 100px;
+    width: 170px;
+    margin: 0px 30%;
+}
+
+/*
+.info1{
+    background-image: url(imagenes/flor\ acuarela.png);
+    width: 100%;
+    height: 995px;
+    background-size: cover;
+}
+*/
+
+
+h2{
+    text-align: center;
+}
+
+main{
+    width:80%;
+    background-color: #ffffffed;
+    margin:20px auto;
+    border-radius:10px;
+    position: relative;
+}
+
+.presentacion{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+    height: 300px;
+}
+
+footer{
+    width:80%;
+    background-color: #ffffffed;
+    margin:20px auto;
+    border-radius:10px;
+    text-align: center;
+}
