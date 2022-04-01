@@ -1,10 +1,21 @@
 *{
     padding: 10px;
     box-sizing: border-box;
+    align-items: center;
+    text-align: center;
 }
 
 h1,h2,h2,p,a{
     color: rgb(112, 105, 219);
+}
+
+main{
+    width:80%;
+    background-color: #ffffffed;
+    margin:20px auto 50px;
+    border-radius:10px;
+    position: relative;
+    height: 92vh;
 }
 
 body{
@@ -14,8 +25,8 @@ body{
 
 header{
     padding:50px;
-    border-bottom: 1px solid rgba(113, 105, 219, 0.356);
     align-items: center;
+    height: 100%;
 }
 
 .galaxia1{
@@ -28,6 +39,7 @@ header{
     justify-content:center;
     gap:80px;
     align-items: center;
+    height: 100%;
 }
 
 .Entrada ul li{
@@ -40,7 +52,13 @@ h1{
     font-size: 80px;
 }
 
-
+.constelaciones{
+    width:80%;
+    background-color: #ffffffed;
+    margin:20px auto;
+    border-radius:10px;
+    text-align: center;
+}
 
 
 /*Menu*/
@@ -73,6 +91,8 @@ nav ul li a{
     background-color: rgba(113, 105, 219, 0.356);
     color: #000;
     border-radius: 10px;
+    display: block;
+    border: 1px dotted rgba(113, 105, 219, 0.356);
 }
 
 nav ul li a:hover{
@@ -102,6 +122,21 @@ ul li a:hover{
     margin: 0px 30%;
 }
 
+
+
+
+/* VIDEOS */
+
+
+
+
+.video a {
+   text-decoration: none;
+}
+
+
+
+
 /*
 .info1{
     background-image: url(imagenes/flor\ acuarela.png);
@@ -112,17 +147,7 @@ ul li a:hover{
 */
 
 
-h2{
-    text-align: center;
-}
 
-main{
-    width:80%;
-    background-color: #ffffffed;
-    margin:20px auto;
-    border-radius:10px;
-    position: relative;
-}
 
 .presentacion{
     display: flex;
@@ -131,10 +156,56 @@ main{
     height: 300px;
 }
 
+.presentacion p{
+    text-align: center;
+}
+
+
+
+
+/* FOOTER */
+
+
+
+
+
+ul {
+    list-style: none;
+}
+
+.redes li {
+   display: inline;   
+}
+
+.redes li a{
+    border-radius: 10px;
+    color: rgb(112, 105, 219);
+}
+
+
+.redes ul:hover a{
+    filter: blur(1.5px);
+}
+
+.b1{
+    font-size: 50px;
+}
+
+.b1 i{
+    font-size: 50px;
+}
+
+.redes li a:hover{
+    background-color: rgba(113, 105, 219, 0.356);
+    color: rgb(0, 0, 0);
+    transform: translateY(-3px) scale(1.12);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
+    filter: none;
+}
+
 footer{
     width:80%;
     background-color: #ffffffed;
     margin:20px auto;
     border-radius:10px;
-    text-align: center;
 }
